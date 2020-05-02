@@ -5,6 +5,6 @@ const sittersCRUD = require("../src/queries/sittersCRUD");
 
 
 tape("logic tape is working", t => {
-    t.equals(1, 1, "one equals one");
+    t.ok(true, "test is working");
     t.end();
   });
