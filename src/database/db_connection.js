@@ -3,9 +3,9 @@ const url = require('url');
 require('dotenv').config();
 
 
-let connectionString = process.env.DATABASE_URL;
+let connectionString = process.env.DB_URL;
 if(process.env.NODE_ENV !== "production")
-    connectionString = process.env.DATABASE_TEST_URL;
+    connectionString = process.env.DB_TEST_URL;
 
 
 
